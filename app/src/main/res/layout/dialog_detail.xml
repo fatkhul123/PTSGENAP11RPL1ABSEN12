@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:paddingBottom="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/CornflowerBlue"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="DETAIL"
+            android:textColor="@color/White"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="6sp"
+        android:layout_marginRight="6sp"
+        android:gravity="center_vertical"
+        android:padding="8sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#4E4E4E"
+            android:text="KODE"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etKode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:background="#00000000"
+            android:gravity="top|left"
+            android:hint=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:enabled="true"
+            android:inputType="textCapCharacters"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="6sp"
+        android:layout_marginRight="6sp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:padding="8sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#4E4E4E"
+            android:text="NAMA"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="5dp"
+            android:background="#00000000"
+            android:gravity="top|left"
+            android:hint=""
+            android:inputType="textCapCharacters"
+            android:textColor="#252525"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="6sp"
+        android:layout_marginRight="6sp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:padding="8sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#4E4E4E"
+            android:text="JENIS"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etJenis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="5dp"
+            android:background="#00000000"
+            android:gravity="top|left"
+            android:hint=""
+            android:inputType="textCapCharacters"
+            android:textColor="#252525"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="1sp"
+        android:paddingRight="14sp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/divSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="5sp"
+            android:padding="8sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIMPAN"
+                android:textColor="@color/Blue"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/divDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="5sp"
+            android:padding="8sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HAPUS"
+                android:textColor="@color/Red"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+
+            >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#37abc8"
+                    android:gravity="center"
+                    android:text="Kode"
+                    android:textColor="#f2f2f2"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="167dp"
+                    android:layout_height="wrap_content"
+                    android:background="#37abc8"
+                    android:gravity="center"
+                    android:text="Nama Barang"
+                    android:textColor="#f2f2f2"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#37abc8"
+                    android:gravity="center"
+                    android:text="Jenis"
+                    android:textColor="#f2f2f2"
+                    android:textSize="18dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/kode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/White"
+                    android:gravity="center"
+                    android:text="LP"
+                    android:textColor="@color/Black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/nama"
+                    android:layout_width="167dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/White"
+                    android:gravity="center"
+                    android:text="Laptop"
+                    android:textColor="@color/Black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/jenis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/White"
+                    android:gravity="center"
+                    android:text="Elektronik"
+                    android:textColor="@color/Black"
+                    android:textSize="18dp" />
+            </TableRow>
+
+        </TableLayout>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
